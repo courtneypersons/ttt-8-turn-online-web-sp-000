@@ -35,6 +35,10 @@ end
 def move(board, index, current_player)
 board[index] = current_player
 end
+
+def turn(board)
+  
+end
 #   def position_taken?(array, ind)
 #     if array[ind] == " " || array[ind] == "" || array[ind] == nil
 #       return false
