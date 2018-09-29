@@ -31,6 +31,10 @@ def position_taken?(board, index)
     return true
   end
 end
+
+def move
+  
+end
 #   def position_taken?(array, ind)
 #     if array[ind] == " " || array[ind] == "" || array[ind] == nil
 #       return false
