@@ -32,7 +32,7 @@ def position_taken?(board, index)
   end
 end
 
-def move
+def move(board, index, current_player)
 
 end
 #   def position_taken?(array, ind)
