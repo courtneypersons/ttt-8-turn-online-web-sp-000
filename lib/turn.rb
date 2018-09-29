@@ -38,6 +38,7 @@ end
 
 def turn(board)
 puts "Please enter 1-9:"
+input = gets.strip
 end
 #   def position_taken?(array, ind)
 #     if array[ind] == " " || array[ind] == "" || array[ind] == nil
