@@ -39,6 +39,7 @@ end
 def turn(board)
 puts "Please enter 1-9:"
 input = gets.strip
+input_to_index
 end
 #   def position_taken?(array, ind)
 #     if array[ind] == " " || array[ind] == "" || array[ind] == nil
