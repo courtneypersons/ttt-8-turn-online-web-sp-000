@@ -37,16 +37,17 @@ board[index] = current_player
 end
 
 def turn(board)
-puts "Please enter 1-9:"
-user_input = gets.strip
-index = input_to_index(user_input)
-if valid_move?(board, index)
+  puts "Please enter 1-9:"
+  input = gets.strip
+  index = input_to_index(input)
+  if valid_move?(board, index)
     move(board, index)
-    display_board(board
+    display_board(board)
   else
- turn(board)
+    turn(board)
   end
 end
+
 #   def position_taken?(array, ind)
 #     if array[ind] == " " || array[ind] == "" || array[ind] == nil
 #       return false
